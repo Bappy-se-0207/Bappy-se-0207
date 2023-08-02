@@ -1,6 +1,6 @@
 void main(){
-  int a = 11;
-  int b = 5;
+  const int a = 11;
+  const int b = 5;
   int resultaddition= a + b;
   int resultsubtraction= a - b;
   int resultmultiplication= a * b;
@@ -11,5 +11,4 @@ void main(){
   print(resultmultiplication);
   print(resultdivision);
   print(resultmodulus);
-
 }
